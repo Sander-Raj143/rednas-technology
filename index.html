@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rednas Technologies – Connect • Secure • Empower</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav id="navbar">
+  <a href="#home" class="nav-brand">
+    <div class="brand-icon">Rt</div>
+    <span class="brand-text"><b>REDNAS</b> TECHNOLOGIES</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#solutions">Solutions</a></li>
+    <li><a href="#partners">Partners</a></li>
+    <li><a href="#whyus">Why Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <span class="nav-tel">UAE: <span>+971 547944483</span></span>
+    <button class="nav-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get a Quote</button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════
+     PAGE 1 — HOME / HERO
+════════════════════════════════════════ -->
+<section id="home">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-radial"></div>
+
+  <div class="hero-content">
+    <div class="hero-chip"><span class="hero-chip-dot"></span>Jabel Ali · JAFZA · Dubai, UAE</div>
+    <h1>REDNAS<span class="line2">TECHNOLOGIES</span></h1>
+    <div class="hero-sub">
+      CONNECT <span class="dot">•</span> SECURE <span class="dot">•</span> EMPOWER
+    </div>
+    <p class="hero-desc">
+      Your trusted IT partner in the UAE — delivering secure, scalable &amp; smart technology solutions that build a connected, future-ready enterprise.
+    </p>
+    <div class="hero-actions">
+      <a href="#services" class="btn-red">Explore Services</a>
+      <a href="#contact" class="btn-ghost">Free Consultation</a>
+    </div>
+    <div class="hero-counter-strip">
+      <div class="hero-counter">
+        <div class="hero-counter-num">10+</div>
+        <div class="hero-counter-lbl">Years Experience</div>
+      </div>
+      <div class="hero-counter">
+        <div class="hero-counter-num">500+</div>
+        <div class="hero-counter-lbl">Projects Done</div>
+      </div>
+      <div class="hero-counter">
+        <div class="hero-counter-num">200+</div>
+        <div class="hero-counter-lbl">Happy Clients</div>
+      </div>
+      <div class="hero-counter">
+        <div class="hero-counter-num">4</div>
+        <div class="hero-counter-lbl">Tech Partners</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Animated SVG Hexagon Visual -->
+  <div class="hero-visual" aria-hidden="true">
+    <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="gcore" cx="40%" cy="40%">
+          <stop offset="0%" stop-color="#e01b24"/>
+          <stop offset="60%" stop-color="#7a0a0a"/>
+          <stop offset="100%" stop-color="#0a0a0f"/>
+        </radialGradient>
+        <filter id="glow">
+          <feGaussianBlur stdDeviation="8" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <!-- Outer rings -->
+      <circle cx="210" cy="210" r="200" fill="none" stroke="rgba(224,27,36,.12)" stroke-width="1"/>
+      <circle cx="210" cy="210" r="160" fill="none" stroke="rgba(224,27,36,.18)" stroke-width="1"/>
+      <circle cx="210" cy="210" r="120" fill="none" stroke="rgba(224,27,36,.25)" stroke-width="1"/>
+      <!-- Spinning dashes -->
+      <circle cx="210" cy="210" r="185" fill="none" stroke="rgba(224,27,36,.3)" stroke-width="1.5" stroke-dasharray="20 18">
+        <animateTransform attributeName="transform" type="rotate" from="0 210 210" to="360 210 210" dur="18s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="210" cy="210" r="145" fill="none" stroke="rgba(224,27,36,.2)" stroke-width="1" stroke-dasharray="8 14">
+        <animateTransform attributeName="transform" type="rotate" from="360 210 210" to="0 210 210" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Core sphere -->
+      <circle cx="210" cy="210" r="85" fill="url(#gcore)" filter="url(#glow)"/>
+      <circle cx="210" cy="210" r="85" fill="none" stroke="rgba(224,27,36,.6)" stroke-width="1.5"/>
+      <!-- Rt text -->
+      <text x="210" y="228" text-anchor="middle" font-family="Barlow Condensed" font-weight="800" font-size="42" fill="white" opacity=".9">Rt</text>
+      <!-- Orbit dots -->
+      <circle cx="210" cy="25" r="5" fill="#e01b24">
+        <animateTransform attributeName="transform" type="rotate" from="0 210 210" to="360 210 210" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="210" cy="50" r="3" fill="rgba(224,27,36,.5)">
+        <animateTransform attributeName="transform" type="rotate" from="180 210 210" to="540 210 210" dur="13s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PAGE 2 — ABOUT US
+════════════════════════════════════════ -->
+<section id="about" class="section">
+  <div class="section-label reveal">About Rednas Technologies</div>
+  <div class="about-layout">
+    <!-- Left Column -->
+    <div>
+      <h2 class="section-title reveal">Powering Enterprises<br>Across the <span>UAE</span></h2>
+      <p class="section-sub reveal" style="margin-bottom:36px;">
+        Founded by technology visionary Sander Raj and headquartered in the prestigious Jebel Ali Free Zone (JAFZA), Dubai, Rednas Technologies has grown into one of the region's most trusted IT solutions providers.
+      </p>
+
+      <div class="about-card-main reveal">
+        <h3>Our Story</h3>
+        <p>Rednas Technologies was built on a single conviction — that every business, regardless of size, deserves enterprise-grade technology. From our base in JAFZA, Dubai, we serve clients across the UAE and South Asia with solutions that connect, protect, and empower.</p>
+        <p>With over a decade of experience and partnerships with the world's leading technology brands, we bring unmatched expertise to every engagement — from startup IT setups to complex enterprise infrastructure overhauls.</p>
+        <div class="about-tag-row">
+          <span class="about-tag">ISO Aligned</span>
+          <span class="about-tag">UAE Based</span>
+          <span class="about-tag">JAFZA Registered</span>
+          <span class="about-tag">24/7 Support</span>
+          <span class="about-tag">Multi-Vendor Expert</span>
+        </div>
+      </div>
+
+      <div class="mv-grid reveal" style="margin-top:20px;">
+        <div class="mv-card">
+          <h4>Our Mission</h4>
+          <p>To deliver innovative, reliable, and secure technology solutions that empower businesses to thrive in a digital-first world.</p>
+        </div>
+        <div class="mv-card">
+          <h4>Our Vision</h4>
+          <p>To be the most trusted technology partner for businesses across the UAE and the wider Middle East region.</p>
+        </div>
+        <div class="mv-card">
+          <h4>Our Values</h4>
+          <p>Integrity, excellence, innovation, and customer-centricity guide every decision we make and every solution we deliver.</p>
+        </div>
+        <div class="mv-card">
+          <h4>Our Approach</h4>
+          <p>We listen first, then architect tailored solutions — combining global best practices with deep local market knowledge.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column — Timeline -->
+    <div>
+      <div class="section-label reveal">Company Journey</div>
+      <h3 class="section-title reveal" style="font-size:32px;margin-bottom:36px;">Milestones That <span>Define Us</span></h3>
+      <div class="timeline reveal">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2013</div>
+          <div class="tl-title">Company Founded</div>
+          <p class="tl-desc">Sander Raj establishes Rednas Technologies with a vision to bridge the IT gap for businesses in the UAE and South Asia.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2015</div>
+          <div class="tl-title">Microsoft Partnership</div>
+          <p class="tl-desc">Achieved Microsoft Solutions Partner status, enabling enterprise-level cloud and software deployments across the region.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2017</div>
+          <div class="tl-title">AWS Partner Network</div>
+          <p class="tl-desc">Joined the AWS Partner Network, expanding our cloud portfolio with world-class Amazon Web Services capabilities.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2019</div>
+          <div class="tl-title">Fortinet &amp; VMware Certified</div>
+          <p class="tl-desc">Earned Fortinet Partner and VMware Partner certifications, solidifying our cybersecurity and virtualization expertise.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2021</div>
+          <div class="tl-title">JAFZA HQ Established</div>
+          <p class="tl-desc">Relocated to the prestigious Jebel Ali Free Zone, positioning Rednas at the heart of Dubai's tech ecosystem.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2024</div>
+          <div class="tl-title">500+ Projects Milestone</div>
+          <p class="tl-desc">Celebrated delivering over 500 successful technology projects across networking, cloud, security, and infrastructure.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PAGE 3 — SERVICES
+════════════════════════════════════════ -->
+<section id="services" class="section" style="background:var(--black);">
+  <div class="services-intro">
+    <div>
+      <div class="section-label reveal">What We Do</div>
+      <h2 class="section-title reveal">Comprehensive <span>IT Services</span><br>Tailored for You</h2>
+    </div>
+    <div class="reveal">
+      <p class="section-sub">From network design to 24/7 monitoring, our end-to-end services ensure your technology infrastructure is always secure, scalable, and performing at its peak.</p>
+    </div>
+  </div>
+
+  <div class="services-grid">
+    <div class="svc-card reveal">
+      <div class="svc-num">01</div>
+      <div class="svc-icon-box">🌐</div>
+      <div class="svc-name">Networking</div>
+      <p class="svc-desc">Design, deploy, and manage enterprise-grade networks that deliver speed, reliability, and resilience across your entire organisation.</p>
+      <ul class="svc-features">
+        <li>LAN / WAN Architecture Design</li>
+        <li>SD-WAN Implementation</li>
+        <li>Wi-Fi 6 Deployments</li>
+        <li>Network Segmentation &amp; VLANs</li>
+        <li>BGP / OSPF Routing Protocols</li>
+        <li>Network Audits &amp; Optimisation</li>
+      </ul>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-num">02</div>
+      <div class="svc-icon-box">☁️</div>
+      <div class="svc-name">Cloud Solutions</div>
+      <p class="svc-desc">Accelerate your digital transformation with cloud architectures built for scale, cost-efficiency, and operational agility.</p>
+      <ul class="svc-features">
+        <li>AWS Cloud Migration &amp; Hosting</li>
+        <li>Microsoft Azure Deployments</li>
+        <li>Hybrid Cloud Architectures</li>
+        <li>Cloud Cost Optimisation</li>
+        <li>Disaster Recovery as a Service</li>
+        <li>Cloud Security &amp; Compliance</li>
+      </ul>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-num">03</div>
+      <div class="svc-icon-box">🛡️</div>
+      <div class="svc-name">Cyber Security</div>
+      <p class="svc-desc">Protect your digital assets with multi-layered security solutions powered by Fortinet's next-generation security platform.</p>
+      <ul class="svc-features">
+        <li>Next-Gen Firewall (NGFW)</li>
+        <li>Endpoint Detection &amp; Response</li>
+        <li>Vulnerability Assessment &amp; Pen Testing</li>
+        <li>Zero Trust Network Access (ZTNA)</li>
+        <li>Security Operations Center (SOC)</li>
+        <li>Compliance &amp; Risk Management</li>
+      </ul>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-num">04</div>
+      <div class="svc-icon-box">🖥️</div>
+      <div class="svc-name">Infrastructure</div>
+      <p class="svc-desc">Build a robust foundation for your business with enterprise-grade data centre, server, and storage solutions.</p>
+      <ul class="svc-features">
+        <li>Data Centre Design &amp; Build</li>
+        <li>Server Virtualisation (VMware)</li>
+        <li>SAN / NAS Storage Systems</li>
+        <li>HCI (Hyperconverged Infrastructure)</li>
+        <li>Backup &amp; Business Continuity</li>
+        <li>IT Asset Lifecycle Management</li>
+      </ul>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-num">05</div>
+      <div class="svc-icon-box">📡</div>
+      <div class="svc-name">Monitoring &amp; Support</div>
+      <p class="svc-desc">Keep your operations running 24/7 with proactive monitoring, rapid incident response, and dedicated technical support.</p>
+      <ul class="svc-features">
+        <li>24/7 NOC Monitoring</li>
+        <li>ITSM &amp; Helpdesk Services</li>
+        <li>SLA-Based Support Contracts</li>
+        <li>Performance Analytics &amp; Reporting</li>
+        <li>Patch Management</li>
+        <li>On-site &amp; Remote Support</li>
+      </ul>
+    </div>
+
+    <div class="svc-card reveal">
+      <div class="svc-num">06</div>
+      <div class="svc-icon-box">🔧</div>
+      <div class="svc-name">IT Consulting</div>
+      <p class="svc-desc">Strategic technology advisory to align your IT investments with business goals, optimise costs, and drive growth.</p>
+      <ul class="svc-features">
+        <li>IT Strategy &amp; Roadmap Planning</li>
+        <li>Digital Transformation Advisory</li>
+        <li>Technology Stack Assessment</li>
+        <li>Vendor Selection &amp; Management</li>
+        <li>IT Budget Optimisation</li>
+        <li>Project Management &amp; Delivery</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PAGE 4 — SOLUTIONS (INDUSTRIES)
+════════════════════════════════════════ -->
+<section id="solutions" class="section">
+  <div class="solutions-intro">
+    <div>
+      <div class="section-label reveal">Industry Solutions</div>
+      <h2 class="section-title reveal">Technology Solutions<br>for <span>Every Sector</span></h2>
+    </div>
+    <p class="section-sub reveal">We understand that different industries face unique challenges. Our tailored IT solutions are designed to meet sector-specific requirements with precision and expertise.</p>
+  </div>
+
+  <div class="industry-grid">
+    <div class="industry-card reveal">
+      <div class="ind-icon">🏢</div>
+      <div class="ind-body">
+        <h4>Enterprise &amp; Corporate</h4>
+        <p>End-to-end IT infrastructure, unified communications, and enterprise resource planning integrations for large organisations seeking operational excellence.</p>
+        <div class="ind-tags">
+          <span class="ind-tag">ERP Integration</span>
+          <span class="ind-tag">Unified Comms</span>
+          <span class="ind-tag">Zero Trust</span>
+        </div>
+      </div>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🏦</div>
+      <div class="ind-body">
+        <h4>Banking &amp; Finance</h4>
+        <p>Highly secure, compliant infrastructure solutions for BFSI institutions including encrypted networks, DLP, and regulatory-aligned data management.</p>
+        <div class="ind-tags">
+          <span class="ind-tag">PCI-DSS</span>
+          <span class="ind-tag">Data Encryption</span>
+          <span class="ind-tag">DLP</span>
+        </div>
+      </div>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🏥</div>
+      <div class="ind-body">
+        <h4>Healthcare</h4>
+        <p>HIPAA-aligned IT solutions for hospitals and clinics — including secure EMR systems, medical device networking, and business continuity planning.</p>
+        <div class="ind-tags">
+          <span class="ind-tag">HIPAA Aligned</span>
+          <span class="ind-tag">EMR Systems</span>
+          <span class="ind-tag">IoMT Security</span>
+        </div>
+      </div>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🏭</div>
+      <div class="ind-body">
+        <h4>Manufacturing &amp; Logistics</h4>
+        <p>Industrial network solutions, OT/IT convergence, and supply chain visibility tools enabling smart manufacturing and real-time logistics tracking.</p>
+        <div class="ind-tags">
+          <span class="ind-tag">OT/IT Convergence</span>
+          <span class="ind-tag">IoT Networks</span>
+          <span class="ind-tag">SCADA</span>
+        </div>
+      </div>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🎓</div>
+      <div class="ind-body">
+        <h4>Education</h4>
+        <p>Smart campus networks, e-learning infrastructure, and student data management systems for schools, universities, and training institutes.</p>
+        <div class="ind-tags">
+          <span class="ind-tag">Smart Campus</span>
+          <span class="ind-tag">E-Learning</span>
+          <span class="ind-tag">Content Filtering</span>
+        </div>
+      </div>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🏗️</div>
+      <div class="ind-body">
+        <h4>Real Estate &amp; Construction</h4>
+        <p>IP surveillance, access control, structured cabling, and BMS integration for smart buildings and large-scale construction projects across the UAE.</p>
+        <div class="ind-tags">
+          <span class="ind-tag">IP CCTV</span>
+          <span class="ind-tag">Access Control</span>
+          <span class="ind-tag">BMS Integration</span>
+        </div>
+      </div>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">🛒</div>
+      <div class="ind-body">
+        <h4>Retail &amp; E-Commerce</h4>
+        <p>Omnichannel IT solutions, POS networking, PCI-compliant payment infrastructure, and retail analytics for modern commerce businesses.</p>
+        <div class="ind-tags">
+          <span class="ind-tag">POS Networks</span>
+          <span class="ind-tag">PCI Compliance</span>
+          <span class="ind-tag">Analytics</span>
+        </div>
+      </div>
+    </div>
+    <div class="industry-card reveal">
+      <div class="ind-icon">⚡</div>
+      <div class="ind-body">
+        <h4>Energy &amp; Utilities</h4>
+        <p>Robust SCADA networks, industrial cybersecurity, and resilient communications infrastructure for energy production and utility management.</p>
+        <div class="ind-tags">
+          <span class="ind-tag">SCADA Security</span>
+          <span class="ind-tag">ICS Protection</span>
+          <span class="ind-tag">OT Networks</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Process -->
+  <div class="process-section">
+    <div class="section-label reveal" style="justify-content:center;">How We Work</div>
+    <h3 class="section-title reveal" style="text-align:center;font-size:38px;">Our Proven <span>Delivery Process</span></h3>
+    <div class="process-steps reveal">
+      <div class="step">
+        <div class="step-circle">01</div>
+        <div class="step-title">Discovery</div>
+        <p class="step-desc">Deep-dive into your business goals, challenges, and existing infrastructure.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">02</div>
+        <div class="step-title">Design</div>
+        <p class="step-desc">Architect a tailored solution aligned to your objectives and budget.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">03</div>
+        <div class="step-title">Deploy</div>
+        <p class="step-desc">Execute implementation with minimal disruption to your operations.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">04</div>
+        <div class="step-title">Optimise</div>
+        <p class="step-desc">Fine-tune performance and ensure everything runs at peak efficiency.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">05</div>
+        <div class="step-title">Support</div>
+        <p class="step-desc">Ongoing 24/7 managed support and continuous improvement services.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PAGE 5 — PARTNERS & CERTIFICATIONS
+════════════════════════════════════════ -->
+<section id="partners" class="section" style="background:var(--black);">
+  <div class="partners-intro reveal">
+    <div class="section-label" style="justify-content:center;">Technology Alliances</div>
+    <h2 class="section-title" style="font-size:clamp(32px,4vw,52px);">Powered by the World's <span>Best Platforms</span></h2>
+    <p class="section-sub" style="margin:16px auto 0;text-align:center;">Our strategic partnerships with industry leaders give our clients access to cutting-edge technology backed by global expertise and local support.</p>
+  </div>
+
+  <div class="partners-grid">
+    <div class="partner-card reveal">
+      <div class="partner-logo-area">
+        <div class="partner-logo-icon">🪟</div>
+        <div>
+          <div class="partner-logo-name">Microsoft</div>
+          <span class="partner-tier">Solutions Partner</span>
+        </div>
+      </div>
+      <p class="partner-desc">As a Microsoft Solutions Partner, we deliver the full Microsoft ecosystem — from Azure cloud and Microsoft 365 to Teams, Dynamics, and enterprise security solutions tailored for your business.</p>
+      <ul class="partner-benefits">
+        <li>Azure Cloud Architecture &amp; Migration</li>
+        <li>Microsoft 365 &amp; Teams Deployment</li>
+        <li>Windows Server &amp; Active Directory</li>
+        <li>Microsoft Defender Security Suite</li>
+        <li>Dynamics 365 ERP Integration</li>
+      </ul>
+    </div>
+
+    <div class="partner-card reveal">
+      <div class="partner-logo-area">
+        <div class="partner-logo-icon">☁️</div>
+        <div>
+          <div class="partner-logo-name">AWS</div>
+          <span class="partner-tier">Partner Network</span>
+        </div>
+      </div>
+      <p class="partner-desc">Our AWS Partner Network status enables us to design, migrate, and manage cloud environments on Amazon Web Services — helping businesses unlock the power of the world's leading cloud platform.</p>
+      <ul class="partner-benefits">
+        <li>EC2, S3, RDS &amp; Lambda Architectures</li>
+        <li>AWS Migration Acceleration Program</li>
+        <li>DevOps &amp; CI/CD Pipeline Setup</li>
+        <li>AWS Cost Optimisation Reviews</li>
+        <li>Multi-Region High Availability Design</li>
+      </ul>
+    </div>
+
+    <div class="partner-card reveal">
+      <div class="partner-logo-area">
+        <div class="partner-logo-icon">🛡️</div>
+        <div>
+          <div class="partner-logo-name">Fortinet</div>
+          <span class="partner-tier">Certified Partner</span>
+        </div>
+      </div>
+      <p class="partner-desc">As a Fortinet Partner, we leverage the industry-leading Security Fabric to deliver comprehensive, integrated cybersecurity across your entire digital attack surface — from network edge to cloud.</p>
+      <ul class="partner-benefits">
+        <li>FortiGate Next-Gen Firewall (NGFW)</li>
+        <li>FortiAnalyzer &amp; FortiManager</li>
+        <li>SD-WAN with Integrated Security</li>
+        <li>Zero Trust Network Access (ZTNA)</li>
+        <li>Secure Email &amp; Web Gateways</li>
+      </ul>
+    </div>
+
+    <div class="partner-card reveal">
+      <div class="partner-logo-area">
+        <div class="partner-logo-icon">⚙️</div>
+        <div>
+          <div class="partner-logo-name">VMware</div>
+          <span class="partner-tier">Certified Partner</span>
+        </div>
+      </div>
+      <p class="partner-desc">Our VMware partnership empowers us to design and implement world-class virtualisation, software-defined data centres, and multi-cloud management solutions for enterprise environments.</p>
+      <ul class="partner-benefits">
+        <li>vSphere &amp; vCenter Server Deployment</li>
+        <li>NSX Network Virtualisation</li>
+        <li>vSAN Hyperconverged Infrastructure</li>
+        <li>VMware Cloud on AWS (VMC)</li>
+        <li>Horizon VDI &amp; Desktop Virtualisation</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Certifications Strip -->
+  <div class="cert-strip reveal">
+    <div class="cert-item">
+      <div class="cert-icon">🎖️</div>
+      <div class="cert-name">CCNA / CCNP</div>
+      <div class="cert-sub">Cisco Certified</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-icon">☁️</div>
+      <div class="cert-name">AWS SAA</div>
+      <div class="cert-sub">Solutions Architect</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-icon">🔵</div>
+      <div class="cert-name">AZ-900 / AZ-104</div>
+      <div class="cert-sub">Microsoft Azure</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-icon">🛡️</div>
+      <div class="cert-name">NSE 4 / NSE 7</div>
+      <div class="cert-sub">Fortinet Certified</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-icon">⚙️</div>
+      <div class="cert-name">VCP-DCV</div>
+      <div class="cert-sub">VMware Certified</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-icon">🔐</div>
+      <div class="cert-name">CompTIA Security+</div>
+      <div class="cert-sub">Security Certified</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     STATS ROW
+════════════════════════════════════════ -->
+<div class="stats-row">
+  <div class="stat-item reveal">
+    <div class="stat-num">500+</div>
+    <div class="stat-lbl">Projects Delivered</div>
+  </div>
+  <div class="stat-item reveal">
+    <div class="stat-num">200+</div>
+    <div class="stat-lbl">Happy Clients</div>
+  </div>
+  <div class="stat-item reveal">
+    <div class="stat-num">10+</div>
+    <div class="stat-lbl">Years in Business</div>
+  </div>
+  <div class="stat-item reveal">
+    <div class="stat-num">99.9%</div>
+    <div class="stat-lbl">Uptime Guarantee</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     PAGE 6 — WHY CHOOSE US + TESTIMONIALS
+════════════════════════════════════════ -->
+<section id="whyus" class="section">
+  <div class="section-label reveal">Why Rednas</div>
+  <h2 class="section-title reveal">The Rednas <span>Advantage</span></h2>
+  <p class="section-sub reveal" style="margin-bottom:0;">Discover what sets us apart from the rest — the principles and practices that make Rednas Technologies the trusted choice of 200+ businesses.</p>
+
+  <div class="why-layout">
+    <div class="usp-list">
+      <div class="usp-item reveal">
+        <div class="usp-icon">🎯</div>
+        <div class="usp-body">
+          <h4>Vendor-Agnostic Expertise</h4>
+          <p>We are certified across Microsoft, AWS, Fortinet, VMware, Cisco, and more — giving you the best solution for your needs, not just what we sell.</p>
+        </div>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">⚡</div>
+        <div class="usp-body">
+          <h4>Rapid Response &amp; SLA Commitment</h4>
+          <p>Our dedicated support teams ensure response times that meet strict SLAs. Critical issues are escalated within minutes, not hours.</p>
+        </div>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">🌍</div>
+        <div class="usp-body">
+          <h4>Deep UAE Market Knowledge</h4>
+          <p>Headquartered in JAFZA with extensive experience navigating UAE regulatory requirements, free zone policies, and regional compliance frameworks.</p>
+        </div>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">🔒</div>
+        <div class="usp-body">
+          <h4>Security-First Philosophy</h4>
+          <p>Every solution we design has security built in from the ground up — not bolted on as an afterthought. Your data and operations are always protected.</p>
+        </div>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">📈</div>
+        <div class="usp-body">
+          <h4>Scalable Solutions</h4>
+          <p>From SMEs to large enterprises, our solutions are architected to grow with your business — no rip-and-replace headaches as you scale.</p>
+        </div>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">🤝</div>
+        <div class="usp-body">
+          <h4>Dedicated Account Management</h4>
+          <p>Each client gets a dedicated account manager and technical lead — a single point of contact who understands your business inside and out.</p>
+        </div>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">💡</div>
+        <div class="usp-body">
+          <h4>Transparent Pricing</h4>
+          <p>No hidden fees, no surprises. We provide detailed proposals and clear project scopes so you always know exactly what you're investing in.</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-label reveal">Client Testimonials</div>
+      <h3 class="section-title reveal" style="font-size:34px;margin-bottom:28px;">What Our <span>Clients Say</span></h3>
+      <div class="testimonials">
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Rednas Technologies transformed our entire network infrastructure within weeks. The team's expertise and commitment to quality exceeded our expectations at every step.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AK</div>
+            <div>
+              <div class="testi-name">Ahmed Al-Khalifa</div>
+              <div class="testi-role">IT Director · Dubai Logistics Corp</div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Their cybersecurity implementation was thorough and comprehensive. We now operate with complete confidence knowing our data is protected by Fortinet's platform managed by Rednas experts.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SP</div>
+            <div>
+              <div class="testi-name">Sarah Patel</div>
+              <div class="testi-role">CTO · Horizon Financial Services</div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">The AWS migration was seamless. Rednas reduced our infrastructure costs by 35% while improving performance. Their ongoing managed support gives us peace of mind around the clock.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">MJ</div>
+            <div>
+              <div class="testi-name">Mohammed Al-Jabri</div>
+              <div class="testi-role">CEO · TechVenture MENA</div>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PAGE 7 — CONTACT
+════════════════════════════════════════ -->
+<section id="contact" class="section" style="background:var(--dark);">
+  <div class="section-label reveal">Get In Touch</div>
+  <h2 class="section-title reveal">Let's Build Something <span>Great Together</span></h2>
+  <p class="section-sub reveal" style="margin-bottom:0;">Ready to transform your IT infrastructure? Reach out to our team of experts today for a free consultation and tailored technology assessment.</p>
+
+  <div class="contact-layout">
+    <!-- Contact Info -->
+    <div>
+      <div class="contact-intro reveal">
+        <p style="margin-top:36px;">Whether you need an urgent IT fix or a long-term technology partner, Rednas Technologies is here. Our team in Dubai responds to every inquiry with speed and professionalism.</p>
+      </div>
+
+      <div class="contact-items">
+        <div class="ci reveal">
+          <div class="ci-icon">📞</div>
+          <div>
+            <div class="ci-lbl">Phone — UAE</div>
+            <div class="ci-val"><a href="tel:+971547944483">+971 547 944 483</a></div>
+          </div>
+        </div>
+        <div class="ci reveal">
+          <div class="ci-icon">📞</div>
+          <div>
+            <div class="ci-lbl">Phone — India</div>
+            <div class="ci-val"><a href="tel:+919619475699">+91 9619 475 699</a></div>
+          </div>
+        </div>
+        <div class="ci reveal">
+          <div class="ci-icon">✉️</div>
+          <div>
+            <div class="ci-lbl">Email Address</div>
+            <div class="ci-val"><a href="mailto:info@rednastechnologies.com">info@rednastechnologies.com</a></div>
+          </div>
+        </div>
+        <div class="ci reveal">
+          <div class="ci-icon">🌐</div>
+          <div>
+            <div class="ci-lbl">Website</div>
+            <div class="ci-val"><a href="https://www.rednastechnologies.com" target="_blank">www.rednastechnologies.com</a></div>
+          </div>
+        </div>
+        <div class="ci reveal">
+          <div class="ci-icon">📍</div>
+          <div>
+            <div class="ci-lbl">Office Address</div>
+            <div class="ci-val">Rednas Technology,<br>Jabel Ali, JAFZA, Dubai,<br>United Arab Emirates</div>
+          </div>
+        </div>
+        <div class="ci reveal">
+          <div class="ci-icon">🕐</div>
+          <div>
+            <div class="ci-lbl">Business Hours</div>
+            <div class="ci-val">Sunday – Thursday: 9:00 AM – 6:00 PM<br>Emergency Support: 24/7 Available</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map placeholder -->
+      <div class="map-placeholder reveal">
+        <div class="map-grid"></div>
+        <div class="map-pin">📍</div>
+        <div class="map-lbl">Jabel Ali Free Zone (JAFZA), Dubai, UAE</div>
+      </div>
+
+      <!-- Founder Card -->
+      <div class="founder-panel reveal">
+        <div class="founder-av">SR</div>
+        <div class="founder-info">
+          <h4>SANDER <span>RAJ</span></h4>
+          <p>Director &amp; Founder</p>
+          <div class="founder-contact">
+            <a href="tel:+971547944483">📞 +971 547 944 483</a>
+            <a href="mailto:info@rednastechnologies.com">✉️ info@rednastechnologies.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form-block reveal">
+      <div class="form-title">Send Us a <span>Message</span></div>
+      <div class="form-row">
+        <div>
+          <label class="form-label">First Name</label>
+          <input class="form-input" type="text" placeholder="John">
+        </div>
+        <div>
+          <label class="form-label">Last Name</label>
+          <input class="form-input" type="text" placeholder="Smith">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input class="form-input" type="email" placeholder="john@company.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Phone Number</label>
+        <input class="form-input" type="tel" placeholder="+971 xx xxx xxxx">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Company Name</label>
+        <input class="form-input" type="text" placeholder="Your Company Ltd.">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Service Interested In</label>
+        <select class="form-select">
+          <option value="" disabled selected>Select a service...</option>
+          <option>Networking</option>
+          <option>Cloud Solutions</option>
+          <option>Cyber Security</option>
+          <option>Infrastructure</option>
+          <option>Monitoring &amp; Support</option>
+          <option>IT Consulting</option>
+          <option>Multiple / Not Sure</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Your Message</label>
+        <textarea class="form-textarea" placeholder="Tell us about your project or requirements..."></textarea>
+      </div>
+      <button class="form-submit" onclick="handleFormSubmit(this)">
+        Send Message →
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand-col">
+      <div class="fb-logo">
+        <div class="fb-icon">Rt</div>
+        <span class="fb-name"><b>REDNAS</b> TECHNOLOGIES</span>
+      </div>
+      <p>Your trusted IT partner in the UAE — delivering secure, scalable &amp; smart technology solutions to build a connected future since 2013.</p>
+      <p style="font-size:12px;color:var(--muted);">Jabel Ali, JAFZA, Dubai, UAE<br>info@rednastechnologies.com</p>
+      <div class="footer-social" style="margin-top:16px;">
+        <div class="social-btn" title="LinkedIn">in</div>
+        <div class="social-btn" title="Twitter">𝕏</div>
+        <div class="social-btn" title="Facebook">f</div>
+        <div class="social-btn" title="Instagram">▣</div>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <ul class="footer-links">
+        <li><a href="#services">Networking</a></li>
+        <li><a href="#services">Cloud Solutions</a></li>
+        <li><a href="#services">Cyber Security</a></li>
+        <li><a href="#services">Infrastructure</a></li>
+        <li><a href="#services">Monitoring &amp; Support</a></li>
+        <li><a href="#services">IT Consulting</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul class="footer-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#partners">Partners</a></li>
+        <li><a href="#whyus">Why Choose Us</a></li>
+        <li><a href="#contact">Careers</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Solutions</h5>
+      <ul class="footer-links">
+        <li><a href="#solutions">Enterprise</a></li>
+        <li><a href="#solutions">Banking &amp; Finance</a></li>
+        <li><a href="#solutions">Healthcare</a></li>
+        <li><a href="#solutions">Manufacturing</a></li>
+        <li><a href="#solutions">Education</a></li>
+        <li><a href="#solutions">Real Estate</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Rednas Technologies. All rights reserved. Registered at Jabel Ali Free Zone (JAFZA), Dubai, UAE.</p>
+    <p>Connect · Secure · Empower</p>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="btt" id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
